@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>List</title>
+</head>
+<body>
+	{% for inv in inventory%}
+	{{inv.name}}
+	{{inv.store}}
+	{{inv.is_empty}}
+	{{inv.last_updated}}
+
+	{% endfor %}
+	
+</body>
+</html>
